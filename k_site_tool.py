@@ -3,7 +3,7 @@
 """
 K站工具 - 违规站点检测与举报系统
 功能：检测违规网站、批量举报、收录监控、降权分析
-作者：YXI工具集
+作者：软件仓库源
 版本：1.0
 """
 
@@ -792,4 +792,5 @@ if __name__ == "__main__":
     # 测试单个网站检查
     test_url = "http://example.com"
     result = tool.check_site_content(test_url)
+
     print(json.dumps(result, ensure_ascii=False, indent=2))
